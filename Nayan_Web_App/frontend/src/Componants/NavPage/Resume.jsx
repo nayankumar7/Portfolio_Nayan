@@ -1,6 +1,6 @@
 import React from 'react'
-import Header from './Header'
-import Footer from './Footer'
+import Header from '../HomePage/Header'
+import Footer from '../HomePage/Footer'
 
 const Resume = () => {
     return (
@@ -34,7 +34,7 @@ const Resume = () => {
                 </div>
             </div>
 
-            <Footer />
+            <Footer/>
         </div>
     )
 }

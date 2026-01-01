@@ -1,6 +1,7 @@
 import React from 'react'
-import Header from './Header'
-import Footer from './Footer'
+import Header from '../HomePage/Header'
+import Footer from '../HomePage/Footer'
+
 
 const Experience = () => {
     return (
@@ -58,7 +59,7 @@ const Experience = () => {
                 
             </div>
 
-            <Footer />
+            <Footer/>
         </div>
     )
 }
